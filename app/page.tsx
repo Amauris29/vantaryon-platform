@@ -1,3 +1,4 @@
+// app/page.tsx
 import Layout from "./layout";
 
 export default function Home() {
