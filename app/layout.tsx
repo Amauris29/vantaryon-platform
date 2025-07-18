@@ -1,5 +1,4 @@
-// layout.tsx
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
       <body className="bg-black text-white font-sans">
