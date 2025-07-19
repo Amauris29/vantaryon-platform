@@ -1,3 +1,4 @@
+// app/page.tsx
 export default function Home() {
   return (
     <section className="text-center mt-20">
