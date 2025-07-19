@@ -1,9 +1,17 @@
-// app/curso/layout.tsx
-export default function CursoLayout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <section className="bg-gray-900 min-h-screen p-6 text-white">
-      <h1 className="text-4xl font-bold mb-6 text-center">Curso: La Máquina y Yo</h1>
-      <div className="max-w-4xl mx-auto">{children}</div>
-    </section>
+    <html lang="es">
+      <body className="bg-black text-white font-sans">
+        <header className="p-4 shadow-md flex justify-between items-center">
+          <h1 className="text-2xl font-bold">VANTARYON — CURSO</h1>
+          <nav className="space-x-4">
+            <a href="/" className="hover:underline">Inicio</a>
+            <a href="/curso" className="hover:underline">Curso</a>
+            <a href="/laboratorio" className="hover:underline">Laboratorio IA</a>
+          </nav>
+        </header>
+        <main className="p-6">{children}</main>
+      </body>
+    </html>
   );
 }
