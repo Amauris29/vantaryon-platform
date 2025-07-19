@@ -1,10 +1,8 @@
-export default function Curso() {
+export default function CursoPage() {
   return (
-    <section className="text-center mt-20">
-      <h2 className="text-3xl font-bold mb-4">Curso "La Máquina y Yo"</h2>
-      <p className="text-gray-300 max-w-xl mx-auto">
-        Aprende inteligencia artificial desde cero con un enfoque práctico, humano y transformador.
-      </p>
-    </section>
+    <main>
+      <h1>Curso: La Máquina y Yo</h1>
+      <p>Contenido del curso disponible aquí.</p>
+    </main>
   );
 }

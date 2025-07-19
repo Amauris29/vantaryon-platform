@@ -1,10 +1,8 @@
-
-// app/laboratorio/layout.tsx
 export default function LaboratorioLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="laboratorio-layout">
-      <h1>Laboratorio IA</h1>
+    <>
+      <header><h2>Sección Laboratorio</h2></header>
       <main>{children}</main>
-    </div>
+    </>
   );
 }

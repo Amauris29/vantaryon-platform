@@ -1,10 +1,8 @@
-
-// app/curso/layout.tsx
 export default function CursoLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="curso-layout">
-      <h1>Curso</h1>
+    <>
+      <header><h2>Sección Curso</h2></header>
       <main>{children}</main>
-    </div>
+    </>
   );
 }
